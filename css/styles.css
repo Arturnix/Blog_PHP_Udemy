@@ -1,0 +1,87 @@
+ul#index {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+h1 {
+  font-family: "Franklin Gothic Medium";
+  font-weight: 400;
+  font-size: 4.5rem;
+  background-color: #ffc288;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 2%;
+  letter-spacing: 8px;
+  background: repeating-linear-gradient(
+    45deg,
+    #ffc288,
+    #ffc288 10px,
+    #dfb37e 10px,
+    #dfb37e 20px
+  );
+}
+
+h2 {
+  font-family: Impact;
+  margin-right: 20px;
+  letter-spacing: 4px;
+  display: inline;
+  color: rgb(48, 84, 29);
+}
+
+.nav-icon {
+  margin-right: 6px;
+  font-size: large;
+}
+
+body {
+  background-color: #f7ede5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+article {
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
+}
+
+.form-label {
+  margin-bottom: 6px;
+  font-family: Georgia;
+  font-size: medium;
+}
+
+.form-control {
+  margin-bottom: 26px;
+}
+
+.btn {
+  margin-top: 26px;
+  margin-bottom: 26px;
+  margin-right: 14px;
+}
+
+button.publish {
+  margin: 0px 15px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(48, 84, 29);
+}
+
+p {
+  margin-top: 16px;
+}
+
+.new-article {
+  font-size: larger;
+  font-weight: 700;
+  color: bisque;
+}
